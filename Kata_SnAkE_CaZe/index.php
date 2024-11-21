@@ -1,7 +1,7 @@
 <?php
 
 
-$string1 = "HoLa  $$$$$$  MuNdO";
+$string1 = "HoLa  $$$$$$ Ñ ñ   MuNdO";
 
 echo $string1;
 
