@@ -1,12 +1,17 @@
 <?php
 
 
-$string1 = "HoLa         MuNdO me gustaria tener 5 animales en casa \t pero no tengo ninguno \n que deberia hacer \n";
+$string1 = "HoLa  $$$$$$  MuNdO";
+
+echo $string1;
+
+echo "<br>";
 
 echo snakeCaser($string1);
 
 
 function snakeCaser(String $string) {
+    $string = preg_replace('/[^a-zA-Z0-9\s]/', ' ', $string);
     $string = preg_replace('/\s+/', ' ', $string);
     $string = strtolower($string);
     $string = str_replace(' ', '_', $string);
