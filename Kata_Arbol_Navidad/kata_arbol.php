@@ -10,7 +10,7 @@ function makeTree($alto) {
             echo str_repeat("*", (2 * $i - 1));
             echo PHP_EOL;
             echo str_repeat(" ", $alto - ($i + 2));
-            echo str_repeat("*", 5);
+            echo "* * *";
             echo PHP_EOL;
             echo str_repeat(" ", $alto - ($i + 1));
             echo "* *";
