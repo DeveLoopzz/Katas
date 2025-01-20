@@ -42,8 +42,8 @@ function practicarAcordesPrincipiante(array $acordes_principiante)
     {
         foreach($acordes_principiante as $acorde)
         {
-            echo $acorde . "<br>"; 
-            //sleep(3);
+            echo $acorde . PHP_EOL; 
+            sleep(3);
         }
         $contador++;
     } while($contador < $contadormax);
@@ -58,7 +58,7 @@ function practicarAcordesIntermedio(array $acordes_intermedio)
     {
         foreach($acordes_intermedio as $acorde)
         {
-            echo $acorde . "<br>"; 
+            echo $acorde . PHP_EOL; 
             sleep(3);
         }
         $contador++;
@@ -74,7 +74,7 @@ function practicarAcordesAvanzado(array $acordes_avanzado)
     {
         foreach($acordes_avanzado as $acorde)
         {
-            echo $acorde . "<br>"; 
+            echo $acorde . PHP_EOL; 
             sleep(3);
         }
         $contador++;
