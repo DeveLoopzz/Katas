@@ -26,17 +26,6 @@ function makeTree($alto) {
     echo PHP_EOL;
 }
 
-//     *
-//   *****
-//    * *
-function makeStar($alto) {
-    echo str_repeat(" ", $alto - 1);
-    echo str_repeat("*", (2 * 1 - 1));
-    echo PHP_EOL;
-    echo str_repeat(" ", $alto - 1);
-    echo str_repeat("*", (2 * 1 - 1));
-    echo PHP_EOL;
-}
 
 
 makeTree($alto);
